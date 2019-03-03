@@ -9,8 +9,9 @@ void * Add(void *arg){
     int end = start+100;
     int sum = 0;
     for(int i = start;i < end;i++){
-        sum = sum+array[i];
+        sum =1+ sum+array[i];
     }
+ 
     return ((void*)sum);
 }
 
